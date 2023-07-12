@@ -8,6 +8,7 @@ import {
     MDBNavbarNav,
     MDBNavbarLink,
 } from "mdb-react-ui-kit";
+import Styles from "./Styles.module.css";
 
 export default function Layout() {
     return (
@@ -17,15 +18,20 @@ export default function Layout() {
                     <img
                         src="Logo.svg"
                         alt="logo"
-                        style={{ "max-width": "15%" }}
+                        style={{ "max-width": "12%" }}
                     ></img>
                 </MDBNavbarBrand>{" "}
                 <MDBNavbarNav right fullWidth={false}>
-                    <MDBNavbarLink active aria-current="page" href="#">
-                        Home
+                    <MDBNavbarLink
+                        active
+                        aria-current="page"
+                        href="https://www.linkedin.com/in/nggerald/"
+                        target="_blank"
+                        rel="noopener"
+                        className={Styles["navbar-button"]}
+                    >
+                        Say Hello
                     </MDBNavbarLink>
-                    <MDBNavbarLink href="#">Features</MDBNavbarLink>
-                    <MDBNavbarLink href="#">Pricing</MDBNavbarLink>
                 </MDBNavbarNav>
             </MDBContainer>
         </MDBNavbar>
