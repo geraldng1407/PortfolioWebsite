@@ -27,6 +27,7 @@ const About = () => {
             </div>
             <div className="about__skill">
                 <div className="about__skill__designer">
+                    <img src="html.gif" alt="developer" className="mainicon" />
                     <h2>Full Stack Developer</h2>
                     <p>
                         Dynamic full-stack developer crafting seamless web
@@ -45,12 +46,18 @@ const About = () => {
                     </ul>
                 </div>
                 <div className="about__skill__developer">
+                    <img
+                        src="artificial-intelligence.gif"
+                        alt="ml"
+                        className="mainicon"
+                    />
                     <h2>Machine Learning Engineer</h2>
-                    <p>Coming soon!</p>
+                    <img src="work-in-progress.png" alt="ml" className="comingsoon" />
                 </div>
                 <div className="about__skill__developer">
+                    <img src="hacker.gif" alt="hacker" className="mainicon" />
                     <h2>Cybersecurity Analyst</h2>
-                    <p>Coming soon!</p>
+                    <img src="work-in-progress.png" alt="ml" className="comingsoon"/>
                 </div>
             </div>
         </React.Fragment>

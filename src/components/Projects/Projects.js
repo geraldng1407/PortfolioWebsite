@@ -4,15 +4,16 @@ import "./Projects.scss";
 
 const SmartInventory = "Smart Inventory";
 const SmartInventoryContent =
-    " Our web app revolutionizes household inventory tracking for food items. Users can make informed decisions, avoid waste, and check food supplies and expiration dates from home. ";
+    "Our web app revolutionizes food inventory tracking at home, enabling informed decisions, waste reduction, and expiration date checks.";
 const CreatedWithSmartInventory = "#SpringBoot, #React.js, #SQL";
 const SourceSmartInventory = "https://github.com/hongyao38/SmartInventory";
 
 const EcOptimise = "EcOptimise";
 const EcOptimiseContent =
-    "Our project tackles energy waste in spaces, reducing facilities costs through a section-based booking system. Utilizing technology and data insights, users can customize energy usage for greater efficiency and savings, promoting sustainability in facilities management.";
+    "Our project tackles energy waste in spaces, reducing facilities costs through a section-based booking system.";
 const CreatedWithEcOptimise = "#React.js";
-const SourceEcOptimise = "https://github.com/Yogesh352/facility-management-frontend"
+const SourceEcOptimise =
+    "https://github.com/Yogesh352/facility-management-frontend";
 
 const Projects = () => {
     return (
@@ -29,11 +30,10 @@ const Projects = () => {
                 <ProjectItem
                     header={EcOptimise}
                     content={EcOptimiseContent}
-                    created={CreatedWithEcOptimise }
+                    created={CreatedWithEcOptimise}
                     img="EcOptimise.PNG"
                     source={SourceEcOptimise}
                 />
-
             </div>
             <a
                 className="projects__button"

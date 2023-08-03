@@ -2,8 +2,8 @@ $primary-color: #7510f7;
 
 .card {
   position: relative;
-  width: 450px;
-  height: 320px;
+  width: 400px;
+  height: 280px;
   border-radius: 15px;
   padding: 1.5rem;
   background: white;
@@ -79,6 +79,9 @@ $primary-color: #7510f7;
     p {
       letter-spacing: 1px;
       font-size: 1rem;
+      @media (max-width: 770px) {
+        font-size: 0.65rem;
+      }
     }
     a {
       padding: 0.2rem 1.5rem;
@@ -93,7 +96,10 @@ $primary-color: #7510f7;
       transition: 0.4s ease;
       text-decoration: none;
       margin-top: 5px;
-
+      @media (max-width: 770px) {
+        margin-top: 0px;
+        font-size: 0.6rem;
+      }
       &:hover {
         background: $primary-color;
         color: white;

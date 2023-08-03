@@ -8,7 +8,7 @@ const Header = () => {
             <div className="navbar">
                 <img
                     className="navbar__profile"
-                    src="Logo.svg"
+                    src="letter-g.png"
                     alt="personal"
                 />
                 <a

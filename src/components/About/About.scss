@@ -8,7 +8,7 @@ $primary-color: #7510f7;
     }
 
     &__content {
-        max-width: 1000px;
+        max-width: 700px;
         margin: 0 auto;
         text-align: center;
         padding-bottom: 6rem;
@@ -33,15 +33,14 @@ $primary-color: #7510f7;
         text-align: center;
         margin: 0 auto;
         margin-top: -8rem;
-        max-width: 700px;
-        min-width: 1000px;
+        max-width: 1500px;
         display: flex;
         justify-content: center;
         background-color: #fff;
         border-radius: 10px;
         border: 1px solid #eee;
         line-height: 30px;
-        box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #e6ecf8;
+        box-shadow: 5px #fff;
         @media (max-width: 768px) {
             max-width: 600px;
         }
@@ -56,8 +55,13 @@ $primary-color: #7510f7;
             @media (max-width: 760px) {
                 width: 100%;
             }
-            border-bottom: 1px solid #eee;
 
+            border-bottom: 1px solid #eee;
+            .mainicon {
+                max-width: 25%;
+                height: auto;
+                padding-bottom: 1rem;
+            }
             h2 {
                 margin-bottom: 1.5rem;
             }
@@ -77,8 +81,8 @@ $primary-color: #7510f7;
             }
             ul {
                 list-style: none;
-                list-style-position: inside;
-                padding-left: 0;
+                padding: 0;
+                list-style-type: none;
                 li {
                     margin-bottom: 0.5rem;
                     font-size: 1.1rem;
@@ -94,7 +98,17 @@ $primary-color: #7510f7;
                 width: 100%;
                 border-left: none;
             }
+            .mainicon {
+                max-width: 25%;
+                height: auto;
+                padding-bottom: 1rem;
 
+            }
+            .comingsoon {
+                max-width: 17%;
+                height: auto;
+                padding-top: 5rem;
+            }
             h2 {
                 margin-bottom: 1.5rem;
             }
@@ -114,7 +128,8 @@ $primary-color: #7510f7;
             }
             ul {
                 list-style: none;
-
+                padding: 0;
+                list-style-type: none;
                 li {
                     margin-bottom: 0.5rem;
                     font-size: 1.1rem;
