@@ -52,12 +52,25 @@ const About = () => {
                         className="mainicon"
                     />
                     <h2>Machine Learning Engineer</h2>
-                    <img src="work-in-progress.png" alt="ml" className="comingsoon" />
+                    <p>
+                        Builds and deploys scalable machine learning systems to
+                        solve real-world problems.
+                    </p>
+                    <h4>Tech Stack</h4>
+                    <ul>
+                        <li>Python</li>
+                        <li>Tensorflow</li>
+                        <li>Scikit-Learn</li>
+                    </ul>
                 </div>
                 <div className="about__skill__developer">
                     <img src="hacker.gif" alt="hacker" className="mainicon" />
                     <h2>Cybersecurity Analyst</h2>
-                    <img src="work-in-progress.png" alt="ml" className="comingsoon"/>
+                    <img
+                        src="work-in-progress.png"
+                        alt="ml"
+                        className="comingsoon"
+                    />
                 </div>
             </div>
         </React.Fragment>

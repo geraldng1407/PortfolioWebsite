@@ -15,11 +15,25 @@ const CreatedWithEcOptimise = "#React.js";
 const SourceEcOptimise =
     "https://github.com/Yogesh352/facility-management-frontend";
 
+const MovieRecommender = "Movie Recommendation";
+const MovieRecommenderContent =
+    "This project implements a simple movie recommender system using cosine similarity between movie vectors.";
+const CreatedWithMovieRecommender = "#Scikit-Learn";
+const SourceMovieRecommender =
+    "https://github.com/geraldng1407/Movie-Recommendation-System";
+
 const Projects = () => {
     return (
         <div className="wrapper">
             <h1>My Recent Projects</h1>
             <div className="projects">
+                <ProjectItem
+                    header={MovieRecommender}
+                    content={MovieRecommenderContent}
+                    created={CreatedWithMovieRecommender}
+                    img="MovieRecommender.jpg"
+                    source={SourceMovieRecommender}
+                />
                 <ProjectItem
                     header={SmartInventory}
                     content={SmartInventoryContent}
