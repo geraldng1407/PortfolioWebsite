@@ -1,6 +1,6 @@
 import React from "react";
-import Typed from "react-typed";
-
+// import Typed from "react-typed";
+import { TypeAnimation } from "react-type-animation";
 import "./Header.scss";
 
 const Header = () => {
@@ -20,10 +20,23 @@ const Header = () => {
                 </a>
             </div>
             <div className="header__content">
-                <Typed
+                {/* <Typed
                     className={"header__content__title"}
                     strings={["Gerald's Journey Into Machine Learning and Cybersecurity"]}
                     typeSpeed={50}
+                /> */}
+                <TypeAnimation
+                    className={"header__content__title"}
+                    sequence={[
+                        "Gerald's Journey Into Machine Learning",
+                        2000,
+                        "Gerald's Journey Into Cybersecurity",
+                        2000,
+                    ]}
+                    // wrapper="span"
+                    speed={50}
+                    // style={{ fontSize: "2em", display: "inline-block" }}
+                    repeat={Infinity}
                 />
                 <p>From Software Engineer to ML and Cyber Expert</p>
                 <img className="header__png" src="computer.svg" alt="hacker" />
