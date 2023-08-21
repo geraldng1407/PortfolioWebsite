@@ -75,7 +75,9 @@ $primary-color: #7510f7;
     transform: translateY(30px);
     -webkit-transition: 0.5s;
     transition: 0.5s;
-
+    h2{
+      font-size: 1.5rem;
+    }
     p {
       letter-spacing: 1px;
       font-size: 1rem;

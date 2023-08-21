@@ -1,4 +1,5 @@
 import React from "react";
+import Typed from "react-typed";
 
 import "./Header.scss";
 
@@ -19,11 +20,12 @@ const Header = () => {
                 </a>
             </div>
             <div className="header__content">
-                <h1>Exploring Cybersecurity and Machine Learning</h1>
-                <p>
-                    Started with Software Engineering but want to explore the
-                    world of Cybersecurity and Machine Learning
-                </p>
+                <Typed
+                    className={"header__content__title"}
+                    strings={["Gerald's Journey Into Machine Learning and Cybersecurity"]}
+                    typeSpeed={50}
+                />
+                <p>From Software Engineer to ML and Cyber Expert</p>
                 <img className="header__png" src="computer.svg" alt="hacker" />
                 <ul>
                     <li>
