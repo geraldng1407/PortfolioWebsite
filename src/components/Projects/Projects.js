@@ -22,11 +22,25 @@ const CreatedWithMovieRecommender = "#Scikit-Learn";
 const SourceMovieRecommender =
     "https://github.com/geraldng1407/Movie-Recommendation-System";
 
+const ImageCaption = "Image Caption Generator";
+const ImageCaptionContent =
+    "The objective of the project is to predict the captions for the input image";
+const CreatedImageCaption = "#Tensorflow, #Keras, #numpy, #nltk";
+const SourceImageCaption =
+    "https://github.com/geraldng1407/Image-Caption-Generator";
+
 const Projects = () => {
     return (
         <div className="wrapper">
             <h1>My Recent Projects</h1>
             <div className="projects">
+            <ProjectItem
+                    header={ImageCaption}
+                    content={ImageCaptionContent}
+                    created={CreatedImageCaption}
+                    img="ImageCaptions.png"
+                    source={SourceImageCaption}
+                />
                 <ProjectItem
                     header={MovieRecommender}
                     content={MovieRecommenderContent}
@@ -48,6 +62,7 @@ const Projects = () => {
                     img="EcOptimise.PNG"
                     source={SourceEcOptimise}
                 />
+ 
             </div>
             <a
                 className="projects__button"
